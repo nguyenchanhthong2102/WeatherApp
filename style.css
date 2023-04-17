@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
+    url(./images/anh-bau-troi-dem-lung-linh-anh-sao-tuyet-dep.jpg) no-repeat
+      center/cover;
+}
+#weather {
+  width: 350px;
+  border-radius: 10px;
+  padding: 30px 20px;
+  background-image: url("./images/anh-bau-troi-dem-lung-linh-anh-sao-tuyet-dep.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.cold {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
+    url(./images/anh-bau-troi-dem-lung-linh-anh-sao-tuyet-dep.jpg) no-repeat
+      center/cover;
+}
+.cold #weather {
+  background-image: url("./images/anh-bau-troi-dem-lung-linh-anh-sao-tuyet-dep.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.hot {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
+    url(./images/4.jpg) no-repeat center/cover;
+}
+.hot #weather {
+  background-image: url("./images/4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.cool {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
+    url(./images/3.jpg) no-repeat center/cover;
+}
+.cool #weather {
+  background-image: url("./images/3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.warm {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
+    url(./images/2.jpg) no-repeat center/cover;
+}
+.warm #weather {
+  background-image: url("./images/2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.search {
+  padding: 10px;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 0 15px 0 15px;
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 5px 10px #000;
+}
+.search:focus {
+  border-radius: 15px 0 15px 0;
+  background: rgba(255, 255, 255, 0.7);
+}
+.content {
+  margin-top: 30px;
+  text-align: center;
+  color: white;
+}
+.capital {
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+}
+.time {
+  font-size: 15px;
+  margin: 15px 0 20px 0;
+}
+.tempurature {
+  padding: 20px;
+  font-size: 65px;
+  margin: 0 30px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.short-desc {
+  margin-top: 30px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.more-desc div {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+.more-desc {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.more-desc div i {
+  margin: 10px 0;
+}
+.hide {
+  visibility: hidden;
+  opacity: 0;
+}
