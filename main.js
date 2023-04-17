@@ -25,7 +25,7 @@ async function getData(capitalSearch) {
     shortDesc.innerText = data.weather[0] ? data.weather[0].main : "";
     time.innerText = new Date().toLocaleString("vi");
 
-    if (temp >= 30) {
+    if (temp >= 28 && temp < 40) {
       body.setAttribute("class", "hot");
     }
     if (temp <= 27 && temp > 23) {
